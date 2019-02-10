@@ -1,0 +1,16 @@
+{
+  "name": "demo-pipeline",
+  "version": "1.0.0",
+  "description": "AWS Code Pipeline Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adanlessossi/demo-pipeline.git"
+  },
+  "keywords": ["AWS", "Code Pipeline"],
+  "author": "",
+  "license": "ISC"
+}
