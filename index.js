@@ -6,6 +6,6 @@ exports.handler = ( event, context, callback ) => {
     console.log( ( currentTime.toString() ) );
     callback( null, {
         statusCode: '200',
-        body: 'The time in Zurich is: ' + currentTime.toString(),
+        body: 'The time in Zurich is: ' + currentTime.toString()
     } );
 };
