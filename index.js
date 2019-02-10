@@ -2,7 +2,7 @@ var time = require( 'time' );
 
 exports.handler = ( event, context, callback ) => {
     var currentTime = new time.Date();
-    currentTime.setTimezone( "Europe/Zurich" );
+    currentTime.setTimezone( 'Europe/Amsterdam' );
     console.log( ( currentTime.toString() ) );
     callback( null, {
         statusCode: '200',
